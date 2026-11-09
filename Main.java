@@ -14,4 +14,12 @@ class Main{
     static boolean isEven(int n) {
         return n % 2 == 0;
     }
+
+    static String repeat(String s, int times) {
+        StringBuilder result = new StringBuilder();
+        for (int i = 0; i < times; i++) {
+            result.append(s);
+        }
+        return result.toString();
+    }
 }
